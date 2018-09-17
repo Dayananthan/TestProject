@@ -1,0 +1,5 @@
+use WideWorldImporters
+GO
+
+select top 10 * from [Sales].[Orders]
+FOR JSON AUTO
